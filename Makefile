@@ -23,7 +23,7 @@ sources  := src/ctk/exception.c src/main.c
 objs     := $(sources:%=$(buildDir)/%.o)
 deps     := $(objs:.o=.d)
 
-CFLAGS += -Iinclude -MMD -MP -pthread
+CFLAGS += -g3 -Iinclude -MMD -MP -pthread
 LDFLAGS += -pthread
 
 .PHONY: all

@@ -26,4 +26,4 @@ typedef const char* cstring_t;
 // Required to be 1 on windows, otherwise 0
 #define CTK_EXCEPTION_ENABLE_SIGNAL_SUPPORT 1
 
-#define CTK_EXCEPTION_ENABLE_THREAD_SUPPORT 0
+#define CTK_EXCEPTION_ENABLE_THREAD_SUPPORT 1
